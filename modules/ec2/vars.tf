@@ -9,5 +9,5 @@ variable "instance_type" {
 }
 
 variable "subnet_id" {
-    default = "aws_subnet.main-subnet.id"
+  default = "aws_subnet.main-subnet.id"
 }
